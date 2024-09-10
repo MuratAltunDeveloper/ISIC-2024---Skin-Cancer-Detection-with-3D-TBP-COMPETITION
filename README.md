@@ -1,0 +1,5 @@
+******************** Code Flow Kaggle ****************** 
+
+There is a detailed description in the kaggleuserr2 solution section in the KAGGLE LeaderBoard table.
+
+ The combination of all codes involves a comprehensive process including machine learning and data processing steps. First, in the data preprocessing stage, I converted categorical data into numerical format with OrdinalEncoder. Then, according to the experimental results, I removed some features from the dataset and calculated the importance ratings of the features. I used the importance ratings of the features to identify important factors that affect the performance of the model. In model training, I cross-validated using GroupKFold and prevented the model from overlearning by early stopping. After training is complete, the models are stored and reloaded later. With the stacking ensemble method, the predictions of the models are combined and predictions are performed on the test data. Finally, I add random noise to the predictions and the results are combined to form final predictions. This process comprehensively handles data processing, model training, model evaluation and combining the results.
